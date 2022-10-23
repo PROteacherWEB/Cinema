@@ -1,0 +1,146 @@
+@media(max-width: 992px) {
+    .films__cards {
+        grid-template-columns: repeat(2, 255px);
+        justify-content: center;
+    }
+
+    .fims__card_bg {
+        object-fit: fill;
+    }
+
+    .collections__cards {
+        grid-template-columns: repeat(1, 350px);
+        justify-content: center;
+    }
+
+    .title {
+        margin: 0 auto;
+    }
+
+    .collections__title {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:768px) {
+    .widow::after {
+        background: linear-gradient(180deg, #DEF7FF 0%, #F4FCFF 20%, rgba(255, 255, 255, 0) 100%);
+    }
+}
+
+@media(max-width:576px) {
+    .nav__item {
+        justify-content: center;
+    }
+
+    .logo {
+        padding: 15px 0;
+    }
+
+    .padding {
+        padding-top: 10px;
+    }
+
+    .header__content {
+        align-items: center;
+        height: 550px;
+    }
+
+    .header__content_title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .header__content_text {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .films__cards {
+        grid-template-columns: repeat(1, 255px);
+    }
+
+    .widow__item {
+        text-align: center;
+    }
+
+    .widow__text {
+        text-align: center;
+    }
+
+    .widow__img {
+        width: 100%;
+    }
+
+    .collections__title {
+        margin-top: 30px;
+    }
+
+    .wanda,
+    .flash,
+    .gotham,
+    .great,
+    .witcher {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .thrones {
+        padding: 40px 22px 40px 22px;
+        text-align: center;
+    }
+
+    .series__cards {
+        grid-auto-rows: minmax(300px, max-content);
+    }
+
+    .header {
+        height: 450px;
+    }
+
+    .header__content {
+        height: 450px;
+    }
+
+    .nav__item {
+        flex-direction: column;
+    }
+
+    .footer__item {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .btn {
+        padding: 17px 32px;
+    }
+
+    .nav__list {
+        gap: 20px;
+    }
+
+    .widow {
+        padding-bottom: 35px;
+    }
+
+    .collections__cards {
+        grid-template-columns: 1fr;
+    }
+
+    .series__cards {
+        grid-auto-rows: minmax(300px, max-content);
+    }
+
+    .series__card_text {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .series__cards {
+        grid-auto-rows: minmax(200px, max-content);
+    }
+}
